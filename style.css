@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+.carousel-slide {
+    display: none;
+} 
+
+.carousel-slide.active{
+    display: block;
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+    from { opacity: 0.4 }
+  to { opacity: 1 }
+}
+
+:root {
+    --bg-primary: #BE8830;
+}
+
+.bg-primary {
+    background-color: #BE8830;
+}
+
+.bg-secondary {
+    background-color: #b8955e;
+}
+
+.text-primary {
+    color:#BE8830
+}
+
+.text-secondary {
+    color: #b8955e;
+}
+
+.border-primary {
+    border: 2px solid #BE8830;
+}
