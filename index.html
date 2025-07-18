@@ -337,24 +337,27 @@
     </div>
 
     <!-- Keunggulan -->
-    <div class="w-full px-30 mt-10">
-      <section>
+    <div class="relative px-30 mt-10">
+      <div class="relative z-10">
         <div class="w-1/2">
           <h3 class="text-3xl font-bold mb-3 text-secondary">| Soft Skill</h3>
           <h1 class="text-5xl font-bold mb-10">
             Beberapa Soft Skill Yang Bisa Kamu Pelajari Di Sini!
           </h1>
         </div>
-      </section>
+      </div>
 
-      <div class="flex gap-5">
-        <section class="w-1/2 flex flex-col justify-center gap-10">
+      <div class="relative z-10 flex gap-5">
+        <section class="w-full grid grid-cols-2 justify-center gap-10">
           <div class="accordion relative w-full">
             <div
-              class="accordion-header text-center px-10 py-5 shadow-xl rounded-2xl bg-primary cursor-pointer"
+              class="accordion-header text-start px-10 py-5 shadow-xl rounded-2xl bg-primary cursor-pointer"
             >
-              <h1 class="text-2xl font-semibold text-white">
-                Kesenian <i class="fa-solid fa-angle-down"></i>
+              <h1
+                class="text-2xl font-semibold text-white flex justify-between"
+              >
+                <span><i class="fa-solid fa-palette"></i> Kesenian</span>
+                <span><i class="fa-solid fa-angle-down"></i></span>
               </h1>
             </div>
             <div
@@ -406,8 +409,11 @@
             <div
               class="accordion-header text-center px-10 py-5 shadow-xl rounded-2xl bg-primary cursor-pointer"
             >
-              <h1 class="text-2xl font-semibold text-white">
-                Olahraga <i class="fa-solid fa-angle-down"></i>
+              <h1
+                class="text-2xl font-semibold text-white flex justify-between"
+              >
+                <span><i class="fa-solid fa-volleyball"></i> Olahraga</span>
+                <span><i class="fa-solid fa-angle-down"></i></span>
               </h1>
             </div>
             <div
@@ -449,8 +455,11 @@
             <div
               class="accordion-header text-center px-10 py-5 shadow-xl rounded-2xl bg-primary cursor-pointer"
             >
-              <h1 class="text-2xl font-semibold text-white">
-                Umum <i class="fa-solid fa-angle-down"></i>
+              <h1
+                class="text-2xl font-semibold text-white flex justify-between"
+              >
+                <span><i class="fa-solid fa-book-open"></i> Umum</span>
+                <span><i class="fa-solid fa-angle-down"></i></span>
               </h1>
             </div>
             <div
@@ -502,8 +511,11 @@
             <div
               class="accordion-header text-center px-10 py-5 shadow-xl rounded-2xl bg-primary cursor-pointer"
             >
-              <h1 class="text-2xl font-semibold text-white">
-                Religi <i class="fa-solid fa-angle-down"></i>
+              <h1
+                class="text-2xl font-semibold text-white flex justify-between"
+              >
+                <span><i class="fa-solid fa-mosque"></i> Religi</span>
+                <span><i class="fa-solid fa-angle-down"></i></span>
               </h1>
             </div>
             <div
@@ -552,18 +564,237 @@
             </div>
           </div>
         </section>
-        <section class="w-1/2 p-10 flex justify-center items-center">
-          <div class="w-full rounded-2xl overflow-hidden aspect-video relative">
-            <img
-              src="https://i.ytimg.com/vi/Kp_y49A5sTU/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBR5MvFapgNfaiMtSrRMNRR8M1mtg"
-              alt=""
-              class="w-full h-full object-cover"
-            />
-            <div class="absolute top-1/2 left-1/2 -translate-1/2 size-40 rounded-full bg-primary">
-              <h1 class="absolute top-1/2 left-1/2 -translate-1/2 text-7xl text-white"><i class="fa-solid fa-play"></i></h1>
-            </div>
+      </div>
+
+      <div class="absolute bottom-0 left-0 right-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#f3f4f5"
+            fill-opacity="1"
+            d="M0,64L34.3,64C68.6,64,137,64,206,80C274.3,96,343,128,411,149.3C480,171,549,181,617,160C685.7,139,754,85,823,74.7C891.4,64,960,96,1029,96C1097.1,96,1166,64,1234,80C1302.9,96,1371,160,1406,192L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+    <!-- News -->
+    <div class="relative px-30 pt-20">
+      <div class="relative z-10">
+        <div class="w-full text-center">
+          <h3 class="text-3xl font-bold mb-3 text-secondary">
+            Berita Tarhud
+          </h3>
+          <h1 class="text-5xl font-bold mb-10">Potingan Terbaru</h1>
+        </div>
+      </div>
+      <div class="relative z-10 w-full grid grid-cols-2 gap-10">
+        <section class="flex flex-col gap-5">
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-haol.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Haol Ke-6 Pendiri Pesantren
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DKqPA15hlCG/?utm_source=ig_web_copy_link&igsh=MTd2cmN2cmRwbWQxMA=="
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
+          </div>
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-idul-adha.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Idul Adha 1446 H
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DKiV93rBGOa/?utm_source=ig_web_copy_link&igsh=ZzV5aHU5eDdxczh3"
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
+          </div>
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-selamat.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Selamat & Sukses Hanifa Syahbania
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DHm3e87Srlz/?utm_source=ig_web_copy_link&igsh=and1MWFlYnpndHAz"
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
           </div>
         </section>
+        <section class="flex flex-col gap-5">
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-xlart.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Exploration of Language & Art II.0
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DKBnjUdxDbK/?utm_source=ig_web_copy_link&igsh=cDdsNzBrcHJ2N3g5"
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
+          </div>
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-ujian-lisan.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Ujian Lisan Santri
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DK1vTpXRC65/?utm_source=ig_web_copy_link&igsh=NjY1YWNzZDFoZjNh"
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
+          </div>
+          <div
+            class="px-10 py-5 shadow-xl bg-white rounded-2xl flex justify-center items-center gap-5"
+          >
+            <section class="w-1/3 aspect-[4/5]">
+              <img
+                src="assets/news/news-ujian-praktik-santri.jpg"
+                alt=""
+                class="w-full h-full object-cover rounded-2xl"
+              />
+            </section>
+            <section
+              class="w-2/3 min-h-60 px-7 py-5 flex flex-col justify-center"
+            >
+              <div>
+                <h1 class="font-bold text-2xl mb-3 text-primary">
+                  Ujian Praktik Santri
+                </h1>
+                <p class="font-medium mb-5">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                  ullam mollitia nobis impedit aspernatur hic cupiditate autem
+                  eaque facilis quas ratione minima nesciunt eius, accusantium
+                  laudantium sint animi itaque odio.
+                </p>
+                <a
+                  href="https://www.instagram.com/p/DJ1ICzaxxWZ/?utm_source=ig_web_copy_link&igsh=MXNwZDhjaXF0NDBrOA=="
+                  target="_blank"
+                  class="font-medium text-sm py-2 px-5 bg-primary text-white rounded-lg"
+                  >Lihat Lebih <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+
+      <!-- SVG Wave -->
+      <div class="absolute top-0 left-0 right-0">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#f3f4f5"
+            fill-opacity="1"
+            d="M0,160L34.3,160C68.6,160,137,160,206,181.3C274.3,203,343,245,411,256C480,267,549,245,617,240C685.7,235,754,245,823,256C891.4,267,960,277,1029,266.7C1097.1,256,1166,224,1234,213.3C1302.9,203,1371,213,1406,218.7L1440,224L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+          ></path>
+        </svg>
       </div>
     </div>
   </body>
