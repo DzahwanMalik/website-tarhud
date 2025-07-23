@@ -61,11 +61,11 @@ accordion.forEach((accordion) => {
   const texts = accordion.querySelectorAll(".content-text");
 
   header.addEventListener("click", () => {
-    const isOpen = content.classList.contains("max-h-50");
+    const isOpen = content.classList.contains("max-h-96");
 
     if (isOpen) {
       // Menutup Box
-      content.classList.remove("max-h-50", "p-5");
+      content.classList.remove("max-h-96", "p-5");
       content.classList.add("max-h-0");
 
       texts.forEach((text) => {
@@ -75,7 +75,7 @@ accordion.forEach((accordion) => {
     } else {
       // Membuka Box
       content.classList.remove("max-h-0");
-      content.classList.add("max-h-50", "p-5");
+      content.classList.add("max-h-96", "p-5");
 
       // Memberi delay untuk setiap text keluar
       texts.forEach((text, index) => {
