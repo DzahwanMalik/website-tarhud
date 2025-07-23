@@ -15,25 +15,7 @@
 }
 
 :root {
-    --bg-primary: #BE8830;
-}
-
-.bg-primary {
-    background-color: #BE8830;
-}
-
-.bg-secondary {
-    background-color: #b8955e;
-}
-
-.text-primary {
-    color:#BE8830
-}
-
-.text-secondary {
-    color: #b8955e;
-}
-
-.border-primary {
-    border: 2px solid #BE8830;
+    --bg-primary: #D68F00;
+    --bg-secondary: #FFC34A;
+    --bg-linear-primary: 270deg,rgba(255, 195, 74, 1) 0%, rgba(158, 105, 0, 1) 100%;
 }

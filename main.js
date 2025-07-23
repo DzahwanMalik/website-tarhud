@@ -2,24 +2,30 @@
 const navbar = document.getElementById("navbar");
 
 window.addEventListener("scroll", () => {
+  const logo = document.getElementById("logo");
+
   if (window.scrollY > navbar.offsetTop) {
     navbar.classList.add(
       "fixed",
       "top-0",
-      "bg-white",
-      "text-gray-800",
+      "bg-(--bg-primary)",
       "shadow-lg"
     );
+
     navbar.classList.remove("absolute");
+
+    logo.src = "assets/logo/LOGO TARHUD.png";
   } else {
     navbar.classList.remove(
       "fixed",
       "top-0",
-      "bg-white",
-      "text-gray-800",
+      "bg-(--bg-primary)",
       "shadow-lg"
     );
+
     navbar.classList.add("absolute");
+
+    logo.src = "assets/logo/TARHUD BARU.png";
   }
 });
 
